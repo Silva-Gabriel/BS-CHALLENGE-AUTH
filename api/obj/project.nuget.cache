@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cdsgT3ogI0A=",
+  "dgSpecHash": "ESZZKqS8sAA=",
   "success": true,
-  "projectFilePath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\potte\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\potte\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
