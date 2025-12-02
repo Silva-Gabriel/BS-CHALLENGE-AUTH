@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YbuHs17Qu3Q=",
+  "dgSpecHash": "AdEbwhTPYrg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\crosscutting\\crosscutting.csproj",
+  "projectFilePath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\crosscutting\\crosscutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\potte\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\potte\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -63,7 +63,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Data.SqlClient' 5.1.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "message": "Package 'Microsoft.Data.SqlClient' 5.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "Microsoft.Data.SqlClient",
       "targetGraphs": [
         "net8.0"
