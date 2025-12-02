@@ -1,0 +1,16 @@
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\bin\Debug\net8.0\services.deps.json
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\bin\Debug\net8.0\services.dll
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\bin\Debug\net8.0\services.pdb
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\bin\Debug\net8.0\domain.dll
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\bin\Debug\net8.0\domain.pdb
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.csproj.AssemblyReference.cache
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.AssemblyInfoInputs.cache
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.AssemblyInfo.cs
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.csproj.CoreCompileInputs.cache
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.sourcelink.json
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.csproj.Up2Date
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.dll
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\refint\services.dll
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\services.pdb
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\services\obj\Debug\net8.0\ref\services.dll
