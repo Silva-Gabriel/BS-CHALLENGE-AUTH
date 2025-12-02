@@ -4,6 +4,6 @@ namespace domain.enums
     {
         ADMIN = 1,
         USER = 2,
-        GUEST = 3
+        MANAGER = 3
     }
 }

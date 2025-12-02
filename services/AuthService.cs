@@ -21,7 +21,7 @@ namespace services
         {
             var CI = new ClaimsIdentity();
             CI.AddClaim(new Claim(ClaimTypes.Name, authRequest.User));
-            CI.AddClaim(new Claim(ClaimTypes.Role, Enum.GetName(typeof(Role), role) ?? Role.GUEST.ToString()));
+            CI.AddClaim(new Claim(ClaimTypes.Role, Enum.GetName(typeof(Role), role) ?? Role.USER.ToString()));
 
             return CI;
         }

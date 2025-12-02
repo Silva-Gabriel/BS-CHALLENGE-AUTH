@@ -109,3 +109,6 @@ C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\obj\Debu
 C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\obj\Debug\net8.0\api.pdb
 C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\obj\Debug\net8.0\ref\api.dll
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\bin\Debug\net8.0\api.xml
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\potte\OneDrive\Área de Trabalho\Code\C#\BS-CHALLENGE\Auth\api\obj\Debug\net8.0\api.xml

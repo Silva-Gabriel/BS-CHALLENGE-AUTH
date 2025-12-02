@@ -7,11 +7,11 @@ namespace infrastructure.repository
 {
     public class UserWriteRepository : IUserWriteRepository
     {
-        private IDbConnection _connection { get; }
+        private IDbConnection Connection { get; }
 
         public UserWriteRepository(IDbConnection connection)
         {
-            _connection = connection;
+            Connection = connection;
         }
 
         public async Task<string> GetPasswordHash(Authentication auth, CancellationToken cancellationToken)
@@ -20,7 +20,7 @@ namespace infrastructure.repository
                             FROM TB_USERS
                             WHERE USERNAME = @username";
 
-            var passwordHash = await _connection.QueryFirstOrDefaultAsync<string>(query, new { username =  auth.User });
+            var passwordHash = await Connection.QueryFirstOrDefaultAsync<string>(query, new { username =  auth.User });
 
             return passwordHash ?? string.Empty;
         }
@@ -31,7 +31,7 @@ namespace infrastructure.repository
                             FROM TB_USERS
                             WHERE USERNAME = @username";
 
-            var role = _connection.QueryFirstOrDefaultAsync<int>(query, new { username = user });
+            var role = Connection.QueryFirstOrDefaultAsync<int>(query, new { username = user });
             return role;
         }
     }

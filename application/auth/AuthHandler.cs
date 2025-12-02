@@ -16,15 +16,14 @@ namespace application.auth
         private IAuthService AuthService { get; }
 
         private IConfiguration Configuration { get; }
+        
 
-        public AuthHandler(ILogger<AuthHandler> logger, IAuthService authService, IUserWriteRepository repository)
+        public AuthHandler(ILogger<AuthHandler> logger, IAuthService authService, IUserWriteRepository repository, IConfiguration configuration)
         {
             Logger = logger;
             AuthService = authService;
             Repository = repository;
-            Configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.Development.json")
-                .Build();
+            Configuration = configuration;
         }
 
         public async Task<AuthResponse> Handle(AuthRequest request, CancellationToken cancellationToken)
