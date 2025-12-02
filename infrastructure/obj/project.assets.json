@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj",
       "projectName": "infrastructure",
-      "projectPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj",
+      "projectPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj",
       "packagesPath": "C:\\Users\\potte\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\potte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,8 +84,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {
-              "projectPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj"
+            "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {
+              "projectPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj"
             }
           }
         }

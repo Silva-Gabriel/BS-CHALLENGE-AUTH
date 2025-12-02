@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5K+ZmJlo064=",
+  "dgSpecHash": "xKGFzJoGD10=",
   "success": true,
-  "projectFilePath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\potte\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
   ],

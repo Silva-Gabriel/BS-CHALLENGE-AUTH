@@ -1119,14 +1119,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {
-              "projectPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj"
+            "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {
+              "projectPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj"
             },
-            "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj": {
-              "projectPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj"
+            "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj": {
+              "projectPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\infrastructure\\infrastructure.csproj"
             },
-            "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\services\\services.csproj": {
-              "projectPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\services\\services.csproj"
+            "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\services\\services.csproj": {
+              "projectPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\services\\services.csproj"
             }
           }
         }

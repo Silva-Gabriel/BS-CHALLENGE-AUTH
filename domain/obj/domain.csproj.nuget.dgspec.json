@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {}
+    "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {
+    "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj",
+        "projectUniqueName": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj",
         "projectName": "domain",
-        "projectPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj",
+        "projectPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\domain.csproj",
         "packagesPath": "C:\\Users\\potte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\obj\\",
+        "outputPath": "C:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\potte\\AppData\\Roaming\\NuGet\\NuGet.Config"

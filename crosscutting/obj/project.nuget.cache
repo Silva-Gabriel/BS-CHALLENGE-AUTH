@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AdEbwhTPYrg=",
+  "dgSpecHash": "Qd8nwWH4FDA=",
   "success": true,
   "projectFilePath": "c:\\Users\\potte\\OneDrive\\Área de Trabalho\\Code\\C#\\BS-CHALLENGE\\Auth\\crosscutting\\crosscutting.csproj",
   "expectedPackageFiles": [
@@ -63,7 +63,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Data.SqlClient' 5.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "message": "O pacote 'Microsoft.Data.SqlClient' 5.1.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "Microsoft.Data.SqlClient",
       "targetGraphs": [
         "net8.0"
