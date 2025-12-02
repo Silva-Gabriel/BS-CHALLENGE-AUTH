@@ -10,13 +10,21 @@ namespace services
     {
         public string GenerateToken(Authentication authRequest, int role, string secretKey, DateTime expiration)
         {
-            var handler = new JwtSecurityTokenHandler();
-            var tokenDescriptor = GetTokenDescriptor(GetClaimsIdentity(authRequest, role), secretKey, expiration);
-            var token = handler.CreateToken(tokenDescriptor);
-            var tokenString = handler.WriteToken(token);
+            try
+            {
+                var handler = new JwtSecurityTokenHandler();
+                var tokenDescriptor = GetTokenDescriptor(GetClaimsIdentity(authRequest, role), secretKey, expiration);
+                var token = handler.CreateToken(tokenDescriptor);
+                var tokenString = handler.WriteToken(token);
 
-            return tokenString;
+                return tokenString;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao gerar token JWT.", ex);
+            }   
         }
+        
         private static ClaimsIdentity GetClaimsIdentity(Authentication authRequest, int role)
         {
             var CI = new ClaimsIdentity();

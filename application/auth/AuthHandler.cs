@@ -37,29 +37,37 @@ namespace application.auth
                 User = request.User,
                 Password = request.Password
             };
-            
-            var role = await Repository.GetRole(authentication.User);
-            var token = AuthService.GenerateToken(authentication, role, Configuration.GetValue<string>("jwtToken:key"), expirationDateTime);
-            var passwordHash = await Repository.GetPasswordHash(authentication, cancellationToken);
 
-
-            if (passwordHash == null || passwordHash == string.Empty)
+            try
             {
-                Logger.LogWarning("Usuário ou senha inválidos!", request.User);
+                var role = await Repository.GetRole(authentication.User);
+                var token = AuthService.GenerateToken(authentication, role, Configuration.GetValue<string>("jwtToken:key"), expirationDateTime);
+                var passwordHash = await Repository.GetPasswordHash(authentication, cancellationToken);
+
+
+                if (passwordHash == null || passwordHash == string.Empty)
+                {
+                    Logger.LogWarning("Usuário ou senha inválidos!", request.User);
+                    return response;
+                }
+                
+                var authValidation = BCrypt.Net.BCrypt.Verify(request.Password, passwordHash);
+
+                if (authValidation)
+                {
+                    Logger.LogInformation("Usuário autenticado com sucesso!");
+                    response = new AuthResponse { Token = token };
+
+                    return response;
+                }
+
                 return response;
             }
-            
-            var authValidation = BCrypt.Net.BCrypt.Verify(request.Password, passwordHash);
-
-            if (authValidation)
+            catch (Exception ex)
             {
-                Logger.LogInformation("Usuário autenticado com sucesso!");
-                response = new AuthResponse { Token = token };
-
+                Logger.LogError(ex, $"[{GetType().Name}] Erro ao autenticar usuário: {ex.Message}");
                 return response;
             }
-
-            return response;
         }
     }
 }

@@ -20,9 +20,15 @@ namespace infrastructure.repository
                             FROM TB_USERS
                             WHERE USERNAME = @username";
 
-            var passwordHash = await Connection.QueryFirstOrDefaultAsync<string>(query, new { username =  auth.User });
-
-            return passwordHash ?? string.Empty;
+            try
+            { 
+                var passwordHash = await Connection.QueryFirstOrDefaultAsync<string>(query, new { username =  auth.User });
+                return passwordHash ?? string.Empty;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao obter hash da senha do usuário.", ex);
+            }
         }
 
         public Task<int> GetRole(string user)
@@ -31,8 +37,15 @@ namespace infrastructure.repository
                             FROM TB_USERS
                             WHERE USERNAME = @username";
 
-            var role = Connection.QueryFirstOrDefaultAsync<int>(query, new { username = user });
-            return role;
+            try
+            {
+                var role = Connection.QueryFirstOrDefaultAsync<int>(query, new { username = user });
+                return role;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao obter o papel do usuário.", ex);
+            }
         }
     }
 }
