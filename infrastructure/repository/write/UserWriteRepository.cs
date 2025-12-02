@@ -27,7 +27,7 @@ namespace infrastructure.repository
             }
             catch (Exception ex)
             {
-                throw new Exception("Erro ao obter hash da senha do usuário.", ex);
+                throw new Exception($"[{GetType().Name}] Erro ao obter hash da senha do usuário.", ex);
             }
         }
 
@@ -44,7 +44,7 @@ namespace infrastructure.repository
             }
             catch (Exception ex)
             {
-                throw new Exception("Erro ao obter o papel do usuário.", ex);
+                throw new Exception($"[{GetType().Name}] Erro ao obter o papel do usuário.", ex);
             }
         }
     }

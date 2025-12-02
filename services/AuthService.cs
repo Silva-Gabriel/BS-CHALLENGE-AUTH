@@ -21,10 +21,10 @@ namespace services
             }
             catch (Exception ex)
             {
-                throw new Exception("Erro ao gerar token JWT.", ex);
+                throw new Exception($"[{GetType().Name}] Erro ao gerar token JWT.", ex);
             }   
         }
-        
+
         private static ClaimsIdentity GetClaimsIdentity(Authentication authRequest, int role)
         {
             var CI = new ClaimsIdentity();
